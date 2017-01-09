@@ -196,6 +196,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+    font-family: 'Open Sans', sans-serif;
 }
 .cta button:hover {
     background: #459cde;
