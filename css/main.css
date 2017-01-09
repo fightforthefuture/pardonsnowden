@@ -120,7 +120,7 @@ body {
 
 .cta .countdown {
     position: relative;
-    margin: 0px auto 0px auto;
+    margin: 0px auto 10px auto;
 }
 
 .cta .countdown #digits_background {
@@ -129,7 +129,10 @@ body {
 
     font-size: 95px;
     font-family: "Digital 7 Mono";
-    opacity: .1;
+    
+    color: rgba(255, 255, 255, .1);
+    background: #333;
+    border-radius: 10px;
 }
 .cta .countdown #remaining {
     position: absolute;
@@ -141,6 +144,7 @@ body {
     font-family: "Digital 7 Mono";
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    color: white;
 }
 .cta .label {
     font-size: 14px;
