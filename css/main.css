@@ -187,7 +187,7 @@ body {
 }
 .cta p.disclosure {
     opacity: .7;
-    max-width: 420px;
+    max-width: 430px;
     width: 100%;
     margin: 25px auto 0px auto;
     font-size: .9em;
@@ -318,4 +318,22 @@ ul.sharing button.twitter {
         margin: 15px 15px 15px 0px;
         display: block;
     }
+}
+
+.video {
+    border-radius: 1rem;
+    height: 0;
+    margin-bottom: 45px;
+    overflow: hidden;
+    padding-bottom: 66.66%;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.video iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
