@@ -2,7 +2,7 @@ var twitterConnectButtons = document.querySelectorAll('.cta button');
 for (i = 0; i < twitterConnectButtons.length; i++) {
   twitterConnectButtons[i].addEventListener('click', function(e) {
     e.preventDefault();
-    var url = 'https://mothership-js.fightforthefuture.org/connect/twitter?tag=pardonsnowden';
+    var url = 'https://mothership-js.fightforthefuture.org/connect/twitter?tag=snowden';
     var properties = 'width=600,height=500,toolbar=no,status=no,menubar=no';
 
     var win = window.open(url, 'idl_connect', properties);
